@@ -205,12 +205,9 @@ main {
 .list__item {
   display: flex;
   align-items: center;
-  transition: all 0.1s linear;
 }
 .list__item::before {
   content: "";
-  display: flex;
-  align-items: center;
   width: 7rem;
   height: 7rem;
   min-width: 7rem;
@@ -221,6 +218,8 @@ main {
 }
 
 .swiper .list__item::before {
+  align-self: normal;
+  margin-top: 8rem;
   border-radius: 0;
   height: 1rem;
   min-height: 1rem;
