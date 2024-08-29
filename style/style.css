@@ -330,4 +330,7 @@ main {
   html {
     font-size: 0.2631578947vw;
   }
+  .about-me__heading {
+    font-size: 14rem;
+  }
 }/*# sourceMappingURL=style.css.map */
