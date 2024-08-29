@@ -219,7 +219,7 @@ main {
 
 .swiper .list__item::before {
   align-self: normal;
-  margin-top: 8rem;
+  margin-top: 7rem;
   border-radius: 0;
   height: 1rem;
   min-height: 1rem;
