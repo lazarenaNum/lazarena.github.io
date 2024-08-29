@@ -284,7 +284,12 @@ main {
   font-size: 10rem;
 }
 
+.swiper-pagination {
+  bottom: 0 !important;
+}
 .swiper-pagination .swiper-pagination-bullet {
+  height: 5rem;
+  width: 5rem;
   background: rgb(218, 0, 143);
 }
 
@@ -319,7 +324,7 @@ main {
   justify-content: center;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1279px) {
   body,
   html {
     font-size: 0.2631578947vw;
