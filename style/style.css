@@ -322,6 +322,7 @@ main {
   padding-bottom: 20rem;
   display: flex;
   justify-content: center;
+  font-family: "Inter", sans-serif;
 }
 
 @media screen and (max-width: 1279px) {
